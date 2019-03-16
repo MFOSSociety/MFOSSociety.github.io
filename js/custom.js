@@ -33,11 +33,12 @@ $(document).ready(function() {
   $(function() {
     $('body').vegas({
         slides: [
-            { src: 'images/hint.jpg' },
-            { src: 'images/rms-1.jpg' },
-            { src: 'images/hint1.jpg' },
-            { src: 'images/Linus-Torvals-0.jpg' },
-            { src: 'images/hint2.jpg' }
+            { src: 'images/1.jpeg' },
+            { src: 'images/2.jpeg' },
+            { src: 'images/3.jpeg' },
+            { src: 'images/4.jpeg' },
+            { src: 'images/5.jpeg' },
+            { src: 'images/6.jpg' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],
