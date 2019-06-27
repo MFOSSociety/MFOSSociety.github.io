@@ -1,0 +1,35 @@
+- title: Open Source Rover
+  img: nasa-jpl.jpg
+  desc:   The Open Source Rover (OSR) is a scaled down version of Curiosity, from its 6-wheel steering all the way to its Rocker-Bogie suspension. The OSR uses Curiosity-like “Rocker-Bogie” suspension, corner steering and pivoting differential, allowing movement over rough terrain, and the brain is a Raspberry Pi. 
+  github: https://github.com/MFOSSociety/open-source-rover
+  try: https://github.com/MFOSSociety/open-source-rover  
+
+- title: The Browser Project
+  img: webkit.png
+  desc:   Not every web browser needs to carry every single feature. The Browser Project was born because recently Chrome has gone evil. Read the blog, blog.cryptographyengineering.com/2018/09/23/why-im-leaving-chrome/
+  github: https://github.com/MFOSSociety/webkit
+  try: https://github.com/MFOSSociety/webkit          
+
+- title: Robo Chess
+  img: robo-chess.jpg
+  desc:   This chess playing robot is a robot able to play against a real player in real time. The pieces are moved automagically from underneath the board using an electromagnet, which is moved around the board with an XY table.
+  github: https://github.com/MFOSSociety/Automate-AI-Chess
+  try: https://youtu.be/LfeKGcBt76M
+             
+- title: The Network Of Skilled People
+  img: NSP.jpg
+  desc:   The Network Of Skilled People (NSP). A Social Network that brings engineer's from all fields together to collaborate.
+
+  github: https://github.com/fossasia/susper.com
+  try: https://susper.com      
+
+- title: PSlab
+  img: pslab.jpg
+  desc:   PSLab is a tiny pocket science lab created by FOSSASIA that provides an array of test and 
+          measurement instruments for doing science and engineering experiments.
+          It can function like an oscilloscope, waveform generator, frequency 
+          counter, programmable voltage and current source and also as a data logger.   
+  
+  github: https://github.com/MFOSSociety/pslab-hardware
+  try: https://pslab.io/
+       

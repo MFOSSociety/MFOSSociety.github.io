@@ -1,0 +1,7 @@
+- name: <Project Name>
+  img: <filename-your-image>.jpg
+  link: https://github.com/<project-id>
+  creator: <your name>
+  email: <me@abc.com>
+  github: <github-id> 
+  info: <about you, project>
