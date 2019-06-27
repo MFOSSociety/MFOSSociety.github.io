@@ -10,25 +10,9 @@
 #   lat: Mentor's Latitude (optional)
 #   lng: Mentor's Longitude (optional)
 
-- name: <name>
-  image: <name>.jpg
-  imagewebp: <name>.webp
-  github: <github-username>
-  lat: 33.333333
-  lng: 33.333333
-
 - name: Pratik Jain
-  image: pratik.jpeg
+  image: Pratik.jpeg
   github: pratikjain04
-  lat: 33.333333
-  lng: 33.333333
-
-- name: <name>
-  image: <name>.jpg
-  imagewebp: <name>.webp
-  github: <github-username>
-  lat: 33.333333
-  lng: 33.333333
 
 - name: Rishi Banerjee
   image: rishi_image.jpg
