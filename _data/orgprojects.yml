@@ -20,8 +20,8 @@
   img: NSP.jpg
   desc:   The Network Of Skilled People (NSP). A Social Network that brings engineer's from all fields together to collaborate.
 
-  github: https://github.com/fossasia/susper.com
-  try: https://susper.com      
+  github: https://github.com/MFOSSociety/NSP
+  try: http://thensp.pythonanywhere.com/
 
 - title: PSlab
   img: pslab.jpg
