@@ -1,0 +1,1 @@
+var btn=$("#backtotop_button");$(window).scroll(function(){300<$(window).scrollTop()?btn.addClass("show"):btn.removeClass("show")});btn.on("click",function(a){a.preventDefault();$("html, body").animate({scrollTop:0},"300")});
