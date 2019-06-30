@@ -1,0 +1,24 @@
+- title: Get started with Git
+  img: learngit.jpg
+  desc: Learn how to use Git.
+  link: https://try.github.io/
+
+- title: Command Line Ninja
+  img: learncommandline.png
+  desc: Learn how to use Command Line.
+  link: https://www.codecademy.com/en/learn/learn-the-command-line
+
+- title: GitHub 101
+  img: learn-github.jpg
+  desc: Learn using GitHub
+  link: https://guides.github.com/activities/hello-world/
+
+- title: Dual Booting Workshop
+  img: dual-boot.jpg
+  desc: How to dual boot ?
+  link: https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/
+
+- title: Over The Wire - Bandit
+  img: overthewire-bandit.png
+  desc: Bandit wargame is aimed at absolute beginners.
+  link: http://overthewire.org/wargames/bandit/

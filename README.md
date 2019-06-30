@@ -53,7 +53,7 @@ Please also read the the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on 
 ```yaml
 - name: Your name
   github: Your github link
-  img: Your imgage location e.g. img/filename.jpg 
+  img: Your image location e.g. img/filename.jpg 
 ```
 
 ## How to add a New Project to the website

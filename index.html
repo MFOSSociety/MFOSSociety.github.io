@@ -293,7 +293,6 @@ layout: default
 <section id="gallery">
       <div class="container">
         <div class="row">
-
           <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
             <div class="section-title">
               <h1>Events</h1>
@@ -302,42 +301,19 @@ layout: default
           </div>
 
           <ul class="grid cs-style-4">
-
+          {% for projects in site.data.events %}
             <li class="col-md-6 col-sm-6">
               <figure>
-                <div><img src="img/mujhacktoberfest18.png" alt="image 2" height="350em"></div>
+                <div><img src="img/{{projects.img}}" alt="image 2" height="350em"></div>
                 <figcaption>
-                  <h2>Hacktoberfest</h2>
-                  <h2 class="section-sub-heading">Hacktoberfest is a month-long celebration of open source software. Event organized by MFOSSociety Wing.</h2>
-                  <a href="https://mfossociety.github.io/Hacktoberfest/" target="_blank">Learn More</a>
+                  <h2>{{projects.title}}</h2>
+                  <h2 class="section-sub-heading">{{projects.desc}}</h2>
+                  <a href="{{projects.link}}" target="_blank">Learn More</a>
                 </figcaption>
               </figure>
             </li>
-
-            <li class="col-md-6 col-sm-6">
-              <figure>
-                <div><img src="img/raspberry-jam.png" alt="Raspberry Jam" height="350em"></div>
-                <figcaption>
-                  <h2>Raspberry Jam</h2>
-                  <h2 class="section-sub-heading">Raspberry Jams are independently organised community events for people to come together to learn about digital making with Raspberry Pi.</h2>
-                  <a href="https://www.raspberrypi.org/jam/" target="_blank">Learn More</a>
-                </figcaption>
-              </figure>
-            </li>
-
-            <li class="col-md-6 col-sm-6">
-              <figure>
-                <div><img src="img/gslogo.png" alt="Girlscript" height="350em"></div>
-                <figcaption>
-                  <h2>Girlscript Summer of Code</h2>
-                  <h2 class="section-sub-heading">GirlScript Summer of Code 2018 is India’s first women-oriented technical festival with an aim to promote gender equality as well as helping people who are just starting out in the field of technology!</h2>
-                  <a href="https://gssoc.tech/" target="_blank">Learn More</a>
-                </figcaption>
-              </figure>
-            </li>
-
+          {% endfor %}
           </ul>
-
         </div>
       </div>
 </section>
@@ -352,63 +328,24 @@ layout: default
             <h1>Activities</h1>
           </div>
         </div>
+
+          {% for projects in site.data.activities %}
+          <div class="row">
           <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
             <div class="team-thumb">
               <div class="image-holder">
-                <img src="img/learngit.jpg" class="img-responsive " alt="Anupam Dagar">
+                <img src="img/{{projects.img}}" class="img-responsive " alt="Anupam Dagar">
               </div>
-              <h3 class="heading">Get started with Git</h3>
-              <p class="description">Learn how to use Git.<br><a href="https://try.github.io/">Visit</a><br>
+              <h3 class="heading">{{projects.title}}</h3>
+              <p class="description">{{projects.desc}}
+                <br>
+                <a href="{{projects.link}}">Visit</a><br>
               </p>
               <br>
             </div>
           </div>
-
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="team-thumb">
-              <div class="image-holder">
-                <img src="https://fossbytes.com/wp-content/uploads/2015/11/learn-github-free.jpg" class="img-responsive " alt="Aswin VB">
-              </div>
-              <h3 class="heading">GitHub 101</h3>
-              <p class="description">Learn using GitHub<br><a href="https://guides.github.com/activities/hello-world/">Visit</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="team-thumb">
-              <div class="image-holder">
-                <img src="https://i.ytimg.com/vi/JvBZBfY5Pfc/maxresdefault.jpg" class="img-responsive" alt="Dual Boot">
-              </div>
-                <h3 class="heading">Dual Booting Workshop</h3>
-                <p class="description">How to dual boot ?<br><a href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/">Visit</a>
-                </p>
-                <br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-              <div class="team-thumb">
-                <div class="image-holder">
-                  <img src="img/learncommandline.png" class="img-responsive" alt="Aswanth">
-                </div>
-                <h3 class="heading">Command Line Ninja</h3>
-                <p class="description">Learn how to use Command Line.<br><a href="https://www.codecademy.com/en/learn/learn-the-command-line">Visit</a>
-                </p>
-                <br>
-              </div>
-            </div>
-          <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-            <div class="team-thumb">
-                <div class="image-holder">
-                  <img src="https://i2.wp.com/www.anonhack.in/wp-content/uploads/2018/04/overthewire-bandit.png" class="img-responsive" alt="OverTheWire">
-              </div>
-                <h3 class="heading">Over The Wire - Bandit</h3>
-                <p class="description">Bandit wargame is aimed at absolute beginners.<br><a href="http://overthewire.org/wargames/bandit/">Goto Bandit</a>
-            </div>
-          </div>
-            
+          {% endfor %}
           <!-- end Members -->
-
     </div>
 </section>
 </section>

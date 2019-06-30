@@ -1,0 +1,14 @@
+- title: Hacktoberfest
+  img: mujhacktoberfest18.png
+  desc: Hacktoberfest is a month-long celebration of open source software. Event organized by MFOSSociety Wing.
+  link: https://mfossociety.github.io/Hacktoberfest/
+
+- title: Raspberry Jam
+  img: raspberry-jam.png
+  desc: Raspberry Jams are independently organised community events for people to come together to learn about digital making with Raspberry Pi.
+  link: https://www.raspberrypi.org/jam/
+
+- title: Girlscript Summer of Code
+  img: gslogo.png
+  desc: GirlScript Summer of Code 2018 is India’s first women-oriented technical festival with an aim to promote gender equality as well as helping people who are just starting out in the field of technology!
+  link: https://gssoc.tech/
