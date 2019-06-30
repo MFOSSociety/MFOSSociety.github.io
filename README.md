@@ -6,7 +6,7 @@
 **Visit :** https://mfossociety.github.io/
 
 
-## Things you should know before contributing:
+## Things you should know before contributing
 
 - All pull requests need to be associated to an issue.
 - All PRs need to be assigned to the person working on it.
@@ -38,8 +38,9 @@
 **Now you can start working on issues.**
 
 
-## How to add yourself to developer section to the website:
-- Choose any current mentor and seek permission before making Pull Request
+## How to add yourself to developer section to the website
+
+- Choose any current mentor and seek permission before making **Pull Request**
 - Size of the profile image - 240x240 px
 - Upload the picture to the img/students folder - with a suitable name
 -  Add yourself to the `_data/students.yml file` as shown below
