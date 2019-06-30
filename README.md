@@ -36,3 +36,31 @@
 9. You will see a server address. To view the site, go to `localhost:4000` from your favourite browser.
 
 **Now you can start working on issues.**
+
+
+## How to add yourself to developer section to the website:
+- Choose any current mentor and seek permission before making Pull Request
+- Size of the profile image - 240x240 px
+- Upload the picture to the img/students folder - with a suitable name
+-  Add yourself to the `_data/students.yml file` as shown below
+
+```yaml
+- name: Your name
+  github: Your github link
+  img: Your imgage location e.g. img/filename.jpg 
+```
+
+## How to add a New Project to the website
+
+- Choose a project and transfer it to MFOSSociety, ignore this step if it's our native project.
+- Get a screenshot with size 1366x566 px
+- Upload the picture to the img folder - with a suitable name
+- Add the project to the `_data/orgprojects.yml` as shown below
+
+```yaml
+- title: Project name
+  img: Project screenshot
+  desc: Project description
+  github: Project github link
+  try: URL where project is hosted 
+```
