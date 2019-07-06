@@ -1,0 +1,15 @@
+- Vorbert (https://codepen.io/Vorbert)
+- Sli (https://codepen.io/Bigfoot01)
+- KSNINJA (Kartik Singhal): https://github.com/KSNINJA
+- niteshkumarniranjan (Nitesh Kumar Niranjan): https://github.com/niteshkumarniranjan
+- saarthakchats (Saarthak Chaturvedi): https://github.com/saarthakchats
+- NishithP2004 (Nishith P): https://github.com/NishithP2004
+- AppleC4T (Hubert Zimny): https://github.com/AppleC4T
+- pythongiant (Srihari): https://github.com/pythongiant
+- STEdirisuriya (Supun Tharinda Edirisuriya): https://github.com/STEdirisuriya
+- mariobehling (Mario Behling): https://github.com/mariobehling
+- Ryan10145 (Ryan10145): https://github.com/Ryan10145
+- sahilsaha7773 (Sahil Saha): https://github.com/sahilsaha7773
+- ammarbinfaisal (Ammar): https://github.com/ammarbinfaisal
+- Sid911 (Siddharth Sinha): https://github.com/Sid911
+- Ritzing (Ritvik Singh Rautela ): https://github.com/Ritzing

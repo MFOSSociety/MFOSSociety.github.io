@@ -238,15 +238,6 @@ p.person-name {
   visibility: hidden;
   z-index: 1000;
 }
-#backtotop_button::after {
-  content: "\f148";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
 #backtotop_button:hover {
   cursor: pointer;
   background-color: #333;
