@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+:root {
+    --dark-color: #282c34;
+    --light-color: #fff;
+    --light-grey-color: #e0e0e0;
+    --grey-color: hsl(0, 0%, 56%);
+    --blue-color: hsl(207, 90%, 61%);
+
+    --button-font-size: 32px; 
+    --button-vertical-padding: .6em;
+    --button-horizontal-padding: 1.4em;
+    --button-color: hsl(240, 100%, 73%);
+    --button-hover-color: hsl(240, 85%, 65%);
+
+    --subscribe-form-height: 500px;
+    --subscribe-form-width: calc(var(--subscribe-form-height) * .7);
+
+    --form-color: hsl(240, 100%, 73%);
+    --form-dark-color: hsl(240, 90%, 67%);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--dark-color);
+    transition: background-color 350ms ease;
+}
+body.colorful {
+    background-color: var(--form-color);
+}
+/* Button styling section */
+.center-content {
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.subscribe-button {
+    position: relative;
+    display: inline-block;
+    font-size: var(--button-font-size);
+    font-family: Oxygen, sans-serif;
+    padding: 
+        var(--button-vertical-padding)
+        var(--button-horizontal-padding);
+    background-color: var(--button-color);
+    color: var(--light-color);
+    border-radius: .25em;
+    outline: none;
+    border: 0 none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 
+        background-color 350ms ease,
+        padding 350ms ease,
+        border-radius 350ms ease;
+}
+.subscribe-button:hover,
+.subscribe-button:active,
+.subscribe-button:focus {
+    background-color: var(--button-hover-color);
+}
+.button-description {
+    user-select: none;
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 250ms ease; 
+}
+/* Form transition styling */
+.subscribe-button.active {
+    padding: 
+        calc(var(--subscribe-form-height) * .5)
+        calc(var(--subscribe-form-width) * .5);
+    border-radius: .5em;
+    background-color: var(--light-color);
+}
+.subscribe-button.active .button-description {
+    opacity: 0;
+}
+/* Form body styling */
+.subscribe-button form {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    padding: 1.5em 1.2em;
+    flex-direction: column;
+    background-color: transparent;
+    pointer-events: none;
+    justify-content: space-between;
+    cursor: default;
+    user-select: none;
+    transition: opacity 250ms ease;
+
+}
+button.subscribe-button.active form {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 700ms 350ms ease;
+}
+form .form-header {
+    color: var(--form-color);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+form .description {
+    color: var(--dark-color);
+    font-size: .7em;
+    font-weight: bold;
+    text-align: center;
+}
+form input {
+    border: .15em solid var(--form-color);
+    border-radius: .35em;
+    padding: calc(var(--button-vertical-padding) * 1.5);
+    font-size: .5em;
+    transition: border 350ms ease;
+}
+form input:active,
+form input:focus {
+    border-color: var(--blue-color);
+    outline: none;
+}
+form input::placeholder {
+    color: var(--grey-color);
+}
+form .confirm-button {
+    background-color: var(--form-color);
+    color: var(--light-color);
+    font-size: .55em;
+    padding: .8em 0;
+    border-radius: .25em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 350ms ease;
+}
+form .confirm-button:hover {
+    cursor: pointer;
+    background-color: var(--form-dark-color);
+}
+
+.shape {
+    position: absolute;
+    right: 100px;
+    bottom: 13%;
+    height: 545px;
+    width: 545px;
+    background: -webkit-linear-gradient( 90deg, rgb(11,136,253) 0%, rgb(46,96,213) 99%);
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    will-change: border-radius, transform, opacity;
+    animation: morph 5s linear infinite;
+    z-index: -1;
+}
+
+@keyframes morph{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    opacity: .89;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
