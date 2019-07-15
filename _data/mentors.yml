@@ -10,6 +10,14 @@
 #   lat: Mentor's Latitude (optional)
 #   lng: Mentor's Longitude (optional)
 
+- name: Aashis kumar
+  image: aesher9o1.jpg
+  github: aesher9o1
+
+- name: Vidhyanshu Jain
+  image: vidu171.jpg
+  github: vidu171
+
 - name: Pratik Jain
   image: Pratik.jpg
   github: pratikjain04

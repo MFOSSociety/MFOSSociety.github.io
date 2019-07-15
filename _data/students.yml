@@ -25,9 +25,9 @@
 #  lat: 33.333333
 #  lng: 33.333333
 
-- name: Meet Oza
-  github: MEETOZA18
-  image: meet.jpg
+- name: Kishore Ganesh
+  github: kishore-ganesh
+  image: kishore-ganesh.jpg
 
 - name: Khushal Agarwal
   github: khushal87
@@ -45,6 +45,30 @@
   github: FortMinor18
   image: FortMinor18.jpeg
 
-- name: Kishore Ganesh
-  github: kishore-ganesh
-  image: kishore-ganesh.jpg
+- name: Manav Kapil
+  github: manav1999
+  image: manav.jpg
+
+- name: Pranav Shirgur
+  github: C3X0r
+  image: pranav.jpg
+
+- name: Meet Oza
+  github: MEETOZA18
+  image: meet.jpg
+
+- name: Agrover112
+  github: Agrover112
+  image: ankit.jpg
+
+- name: Arihant Awasthi
+  github: Arihantawasthi
+  image: arihant.jpg
+
+- name: Purujeet Paliwal
+  github: purujeetpaliwal
+  image: purujeetpaliwal.jpg
+
+- name: sg23x
+  github: sg23x
+  image: sg23x.jpg
