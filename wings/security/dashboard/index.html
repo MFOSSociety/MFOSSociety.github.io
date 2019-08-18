@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MFOSS | Security Wing</title>
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB4Fe6Imokzohg1QH3alQb4DObLktpw24&callback=initMap"
+    async defer></script><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header>
+  <h1>The Security Wing's Dashboard</h1>
+  <nav>Filter:
+    <label id="current-lbl" class="my-label">
+      <button type='radio' id="current" class='fil-btn' name='filter' num="0">
+        Current</button>
+    </label>
+    <label id="future-lbl" class="my-label">
+      <button type='radio' class='fil-btn' name='filter' id="future" num="1">
+        Upcoming</button>
+    </label>
+    <label id="all-lbl" class="my-label">
+      <button type='radio' class='fil-btn btn-select' id="all" name='filter' num="2" selected>
+        All</button>
+    </label>
+  </nav>
+</header>
+<main id="content"></main>
+<footer>
+  Security Wing of <a href="https://mfossociety.github.io" target="_new">MFOSSociety</a>.<br/>
+  Handled by <a href="https://jaipur.manipal.edu/">Manipal University Jaipur</a>
+</footer>
+  <script  src="./script.js"></script>
+</body>
+</html>
