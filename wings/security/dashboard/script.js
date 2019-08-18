@@ -125,7 +125,7 @@ function renderData(dataToRender) {
   dataToRender.forEach(displayData);
 }
 
-fetch("https://raw.githubusercontent.com/MFOSSociety/MFOSSociety.github.io/master/wings/security/dashboard/data.json")
+fetch("https://raw.githubusercontent.com/MFOSSociety/MFOSSociety.github.io/master/wings/security/data/events.json")
   .then(function(response) {
     return response.json();
   })
