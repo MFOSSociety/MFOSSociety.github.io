@@ -1,4 +1,0 @@
-[
-	{"date_issued":"2019-08-19T00:00:00.000","starting_date":"2019-08-23T00:00:00.000","finish_date":"2019-08-23T00:00:00.000","tname":"init(mfoss.security)","on":"Room B2, 333","duration":"4 hours","details":"HelloWorld() by our security wing.","activity_type":"Meeting #1","location":{"type":"Point","coordinates":[26.922070, 75.778885]}}, 
-	{"date_issued":"2019-08-19T00:00:00.000","starting_date":"2019-08-24T00:00:00.000","finish_date":"2019-08-24T00:00:00.000","tname":"wargames.start()","on":"Room B2, 333","duration":"6 hours","details":"Kickstarting the engine. Intro to wargames, jeopardy, attack-defence. Selecting targets (https://ctftime.org/stats/2019/IN).","activity_type":"Meeting #2","location":{"type":"Point","coordinates":[26.922070, 75.778885]}}
-]
