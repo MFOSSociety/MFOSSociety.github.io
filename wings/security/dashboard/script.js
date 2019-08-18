@@ -125,7 +125,7 @@ function renderData(dataToRender) {
   dataToRender.forEach(displayData);
 }
 
-fetch("data.json")
+fetch("https://raw.githubusercontent.com/MFOSSociety/MFOSSociety.github.io/master/wings/security/dashboard/data.json")
   .then(function(response) {
     return response.json();
   })
