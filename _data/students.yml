@@ -43,7 +43,11 @@
   
 - name: Anshul Khilrani
   github: FortMinor18
-  image: FortMinor18.jpeg
+  image: FortMinor18.jpeg  
+  
+- name: Anmol Srivastava
+  github: anmolsri150
+  image: anmolsri150.jpg
 
 - name: Manav Kapil
   github: manav1999
