@@ -32,15 +32,15 @@
 - name: Khushal Agarwal
   github: khushal87
   image: khushal.jpg
+    
+- name: Rishabh C
+  github: exynos-999
+  image: rishabh_c.jpeg
   
 - name: Sarthak Agarwal
   github: SarCode
   image: Sarthak_Agarwal.jpg
 
-- name: Rishabh C
-  github: exynos-999
-  image: rishabh_c.jpeg
-  
 - name: Karan Mannan
   github: knmn2000
   image: knmn2000.jpg

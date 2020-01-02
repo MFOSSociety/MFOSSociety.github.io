@@ -6,3 +6,5 @@ sass:
 
 plugins:
     - jekyll-gzip
+
+theme: jekyll-theme-cayman
